@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    padding: 15px;
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        h2 {
+            margin: 5px;
+            font-size: 20px;
+        }
+    }
+    menu {
+        margin: 10px;
+        font-size: 12px;
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                justify-content: space-around;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        color: gray;
+        margin: 10px;
+        &:hover {
+            background-color: whitesmoke;
+        }
+    }
+    .MenuContact {
+        margin-left: 500px;
+        font-size: 12px;
+    }
+}
+
+main {
+    .CaverPhoto {
+        width: 100%;
+        filter: brightness(0.5);
+        animation: test 4s linear;
+        @keyframes test {
+            from {
+                filter: brightness(0.0);
+            }
+            to {
+                filter: brightness(0.5);
+            }
+        }
+    }
+    .container {
+        .Text_container {
+            text-align: center;
+            width: 590px;
+            height: 94px;
+            margin: 0 auto;
+            margin-top: 132px;
+            margin-bottom: 128.5px;
+            p {
+                font-size: 40px;
+            }
+            animation: TextAnimtion 1s linear;
+            @keyframes TextAnimtion {
+                from {
+                    opacity: 0;
+                    margin-top: 1px;
+                }
+                to {
+                    margin-top: 132px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    hr {
+        color: #707070;
+    }
+    .Text_container_Instagram {
+        text-align: center;
+        width: 590px;
+        height: 94px;
+        margin: 0 auto;
+        margin-top: 160px;
+        margin-bottom: 111px;
+        p {
+            font-size: 40px;
+        }
+        animation: TextAnimtion 2s linear;
+        @keyframes TextAnimtion {
+            from {
+                opacity: 0;
+                margin-top: 1px;
+            }
+            to {
+                margin-top: 132px;
+                opacity: 1;
+            }
+        }
+    }
+    .cards {
+        margin-top: 117.5px;
+        display: flex;
+        gap: 38px
+    }
+    .image-Card {
+        margin-top: 44px;
+        width: 340px;
+        height: 200px;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    .CardsPragraph {
+        margin-top: 30px;
+        color: #999999;
+    }
+    .CardsButton {
+        background-color: white;
+        margin-top: 25px;
+        margin-bottom: 113.5px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: whitesmoke;
+        }
+    }
+    .allImage {
+        display: flex;
+        width: 1150px;
+        .bigOneImage img {
+            width: 531px;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+        .multiImage .imgtop {
+            margin-left: 60px;
+            width: 239px;
+            &:hover {
+                transform: scale(1.4);
+            }
+        }
+        .multiImage .imgbottom {
+            margin-top: 50px;
+            margin-left: 60px;
+            width: 239px;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 0.3px solid gray;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    .footerScoial {
+        margin: 30px 0 0 0;
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: center;
+        p {
+            color: gray;
+            padding: 10px;
+            font-size: 25px;
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+        }
+    }
+}

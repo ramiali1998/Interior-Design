@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  padding: 15px;
+}
+
+header .container {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container h2 {
+  margin: 5px;
+  font-size: 20px;
+}
+
+header menu {
+  margin: 10px;
+  font-size: 12px;
+}
+
+header menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header menu ul li {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: gray;
+  margin: 10px;
+}
+
+header a:hover {
+  background-color: whitesmoke;
+}
+
+header .MenuContact {
+  margin-left: 500px;
+  font-size: 12px;
+}
+
+main .CaverPhoto {
+  width: 100%;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  -webkit-animation: test 4s linear;
+          animation: test 4s linear;
+}
+
+@-webkit-keyframes test {
+  from {
+    -webkit-filter: brightness(0);
+            filter: brightness(0);
+  }
+  to {
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+}
+
+@keyframes test {
+  from {
+    -webkit-filter: brightness(0);
+            filter: brightness(0);
+  }
+  to {
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+}
+
+main .container .Text_container {
+  text-align: center;
+  width: 590px;
+  height: 94px;
+  margin: 0 auto;
+  margin-top: 132px;
+  margin-bottom: 128.5px;
+  -webkit-animation: TextAnimtion 1s linear;
+          animation: TextAnimtion 1s linear;
+}
+
+main .container .Text_container p {
+  font-size: 40px;
+}
+
+@-webkit-keyframes TextAnimtion {
+  from {
+    opacity: 0;
+    margin-top: 1px;
+  }
+  to {
+    margin-top: 132px;
+    opacity: 1;
+  }
+}
+
+@keyframes TextAnimtion {
+  from {
+    opacity: 0;
+    margin-top: 1px;
+  }
+  to {
+    margin-top: 132px;
+    opacity: 1;
+  }
+}
+
+main hr {
+  color: #707070;
+}
+
+main .Text_container_Instagram {
+  text-align: center;
+  width: 590px;
+  height: 94px;
+  margin: 0 auto;
+  margin-top: 160px;
+  margin-bottom: 111px;
+  -webkit-animation: TextAnimtion 2s linear;
+          animation: TextAnimtion 2s linear;
+}
+
+main .Text_container_Instagram p {
+  font-size: 40px;
+}
+
+@keyframes TextAnimtion {
+  from {
+    opacity: 0;
+    margin-top: 1px;
+  }
+  to {
+    margin-top: 132px;
+    opacity: 1;
+  }
+}
+
+main .cards {
+  margin-top: 117.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 38px;
+}
+
+main .image-Card {
+  margin-top: 44px;
+  width: 340px;
+  height: 200px;
+}
+
+main .image-Card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main .CardsPragraph {
+  margin-top: 30px;
+  color: #999999;
+}
+
+main .CardsButton {
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 113.5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .CardsButton:hover {
+  background-color: whitesmoke;
+}
+
+main .allImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1150px;
+}
+
+main .allImage .bigOneImage img {
+  width: 531px;
+}
+
+main .allImage .bigOneImage img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main .allImage .multiImage .imgtop {
+  margin-left: 60px;
+  width: 239px;
+}
+
+main .allImage .multiImage .imgtop:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+main .allImage .multiImage .imgbottom {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 239px;
+}
+
+main .allImage .multiImage .imgbottom:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  border-top: 0.3px solid gray;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer .footerScoial {
+  margin: 30px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footerScoial p {
+  color: gray;
+  padding: 10px;
+  font-size: 25px;
+}
+
+footer .footerScoial p a {
+  text-decoration: none;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
